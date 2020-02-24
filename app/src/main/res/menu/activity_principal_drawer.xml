@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Receitas">
+        <menu>
+            <item
+                android:id="@+id/nav_receitas_fixas"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Fixas" />
+            <item
+                android:id="@+id/nav_receitas_variaveis"
+                android:icon="@drawable/ic_credit_card_black_24dp"
+                android:title="Variáveis" />
+            <item
+                android:id="@+id/nav_receitas_extras"
+                android:icon="@drawable/extra"
+                android:title="Extras" />
+        </menu>
+    </item>
+
+    <item android:title="Despesas">
+    <menu>
+        <item
+            android:id="@+id/nav_despesas_fixas"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Fixas" />
+        <item
+            android:id="@+id/nav_despesas_variaveis"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Variáveis" />
+        <item
+            android:id="@+id/nav_despesas_extras"
+            android:icon="@drawable/extra"
+            android:title="Extras" />
+    </menu>
+    </item>
+
+</menu>
